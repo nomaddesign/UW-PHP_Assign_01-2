@@ -1,0 +1,24 @@
+{
+	"name": "Asignment 1-2",
+	"description": "UW PHP course lecture2 Assignmnet 1-2",
+	"authors": [
+		{
+			"name": "Jason Ball",
+			"email": "jason@eyemoto.com"
+		}
+	],
+	"require": {
+		"phpunit/phpunit": "3.7.*@dev"
+	},
+
+	"autoload": {
+		"classmap": [
+			"Src/Vehicle/",
+			"Tests/Src/Vehicle/"
+		]
+	},
+	"config": {
+		"vendor-dir" : "Vendors",
+		"vendor-bin" : "Vendors/bin"
+	}
+}
