@@ -7,7 +7,7 @@ php:
 
 before_script:
 	- curl -s http://getcomposer.org/installer | php
-	- php composer.phar update -v
+	- php composer.phar update -v -o
 
 script:
 	- phpunit --coverage-text --configuration Tests/Conf/phpunit.xml
